@@ -126,3 +126,11 @@ Here are the queries and Google results that are described in the HW1.pdf linked
 
 
 
+# Results
+
+[Scraped query results in hw1.json](https://github.com/Pasxsenger/Information-Retrieval-and-Web-Search-Engines/blob/main/Comparing%20search%20engines%20(Google%20vs%20another)/hw1/hw1.json)
+
+[Statistics in hw1.csv](https://github.com/Pasxsenger/Information-Retrieval-and-Web-Search-Engines/blob/main/Comparing%20search%20engines%20(Google%20vs%20another)/hw1/hw1.csv)
+
+[Conclusion in hw1.txt](https://github.com/Pasxsenger/Information-Retrieval-and-Web-Search-Engines/blob/main/Comparing%20search%20engines%20(Google%20vs%20another)/hw1/hw1.txt)
+
