@@ -1,0 +1,5 @@
+First, according to the statistics in hw1.csv, the average percent overlap is around 20%, which means Google and DuckDuckGo have a low ratio of overlapping.
+Second, the average Spearman coefficient of their positions in the search result list is around -4.31, which is negative, indicating that the overlapping results are uncorrelated.
+
+Clearly the two search engines are using different algorithms for weighting and ranking the documents they determine are most relevant to the query.
+Moreover their algorithms are emphasizing different ranking features.
