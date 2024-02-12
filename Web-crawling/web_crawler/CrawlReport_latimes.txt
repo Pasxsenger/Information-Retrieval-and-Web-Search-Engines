@@ -1,0 +1,37 @@
+Name: Xuesong Shen
+USC ID: 8138053893
+News site crawled: latimes.com
+Number of threads: 16
+Fetch Statistics
+================
+fetches attempted: 19963
+fetches succeeded: 19523
+fetches failed or aborted: 440
+Outgoing URLs:
+==============
+Total URLs extracted: 4236528
+# unique URLs extracted: 1648246
+# unique URLs within News Site: 237708
+# unique URLs outside News Site: 1410538
+Status Codes:
+=============
+200 OK: 19523
+301 Moved Permanently: 163
+302 Found: 31
+307 Temporary Redirect: 129
+400 Bad Request: 70
+404 Not Found: 47
+File Sizes:
+===========
+< 1KB: 76
+1KB ~ <10KB: 354
+10KB ~ <100KB: 702
+100KB ~ <1MB: 17663
+>= 1MB: 20
+Content Types:
+==============
+image/jpeg: 375
+image/png: 358
+image/svg+xml: 39
+image/webp: 21
+text/html: 18022

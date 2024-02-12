@@ -60,9 +60,9 @@ column 4 contains the resulting content-type
 
 *<u>clearly the number of rows will be less than the number of rows in fetch_latimes.csv</u>*
 
-| URL                                      | Size (Bytes) | Number of outlinks found | Content-type |
-| ---------------------------------------- | ------------ | ------------------------ | ------------ |
-| (<= Number of rows in fetch_latimes.csv) |              |                          |              |
+| URL                                      | Size (Byte) | Number of outlinks found | Content-type |
+| ---------------------------------------- | ----------- | ------------------------ | ------------ |
+| (<= Number of rows in fetch_latimes.csv) |             |                          |              |
 
 
 
@@ -78,7 +78,8 @@ column 2 contains an indicator of whether the URL
 
 ​	**b.** points outside of the website (**N_OK**).
 
- 		(A file points out of the website if its URL does not start with the initial host/domain name, e.g. when crawling USA 		Today news website all inside URLs must start with www.usatoday.com)
+ 		(A file points out of the website if its URL does not start with the initial host/domain name
+ 		e.g. when crawling USA Today news website all inside URLs must start with www.usatoday.com)
 
 This file will be much larger than fetch_latimes.csv and visit_latimes.csv
 
@@ -100,7 +101,7 @@ http://store.nytimes.com/
 
 
 
-| encountered URL (including repeats) | Indicator |
+| Encountered URL (including repeats) | Indicator |
 | ----------------------------------- | --------- |
 | ... (<= 20,000 rows)                | OK / N_OK |
 
@@ -229,5 +230,25 @@ image/gif:
 image/jpeg:
 image/png:
 application/pdf:
+```
+
+
+
+# Notes
+
+## Compile Command
+
+```shell
+javac -cp "lib/*:src/" src/Controller.java src/MyCrawler.java
+```
+
+
+
+## Run Command
+
+```shell
+java --add-opens java.management/sun.management=ALL-UNNAMED -cp "lib/*:src/" Controller
+or
+java --add-opens java.management/sun.management=ALL-UNNAMED -cp "lib/*:src/" Controller > output.log 2>&1
 ```
 
