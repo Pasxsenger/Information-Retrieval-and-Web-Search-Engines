@@ -48,6 +48,37 @@ There is no need to change the reducer.
 
 
 
+# Command
+
+```
+javac -cp ".:lib/*" UnigramIndex.java
+rm -rf out_uni; java -cp ".:lib/*" UnigramIndex data2/fulldata out_uni; more out_uni/part*
+
+javac -cp ".:lib/*" BigramIndex.java
+rm -rf out_bi; java -cp ".:lib/*" BigramIndex data2/devdata out_bi; more out_bi/part*
+```
+
+
+
+# Results
+
+## Folders
+
+![img](../Pictures/hw3-3.png)
+
+![img](../Pictures/hw3-4.png)
+
+## .txt Files
+
+[unigram_index.txt](https://github.com/Pasxsenger/Information-Retrieval-and-Web-Search-Engines/blob/main/Inverted-index%20creation/inverted_index_creation/unigram_index.txt)
+
+[bigram_index.txt](https://github.com/Pasxsenger/Information-Retrieval-and-Web-Search-Engines/blob/main/Inverted-index%20creation/inverted_index_creation/bigram_index.txt)
+
+
+
+
+
 # Resource
 
 [A self-contained, complete, minimal MapReduce example that counts words in two input documents](https://replit.com/@satychary/HadoopWordCounter)
+
