@@ -72,7 +72,7 @@ rm -rf out_bi; java -cp ".:lib/*" BigramIndex data2/devdata out_bi; more out_bi/
 
 [unigram_index.txt](https://github.com/Pasxsenger/Information-Retrieval-and-Web-Search-Engines/blob/main/Inverted-index%20creation/inverted_index_creation/unigram_index.txt)
 
-[bigram_index.txt](https://github.com/Pasxsenger/Information-Retrieval-and-Web-Search-Engines/blob/main/Inverted-index%20creation/inverted_index_creation/bigram_index.txt)
+[selected_bigram_index.txt](https://github.com/Pasxsenger/Information-Retrieval-and-Web-Search-Engines/blob/main/Inverted-index%20creation/inverted_index_creation/selected_bigram_index.txt)
 
 
 
