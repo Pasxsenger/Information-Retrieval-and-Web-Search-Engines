@@ -117,3 +117,72 @@ Why is this exciting? **<u>Because the word 'physics' isn't in any of our result
 
 
 # Part 2
+
+Run a crawler on a set of pages that contain 'good' data - that could be used by an LLM to answer questions 'intelligently' (i.e. not confabulate, i.e. not 'hallucinate', i.e. not makeup BS based on its core, general-purpose pre-training!).
+
+The crawled results get conveniently packaged into a single **output.json** file.
+
+
+
+Clone the 'gpt-crawler':
+
+```shell
+git clone https://github.com/BuilderIO/gpt-crawler
+```
+
+![img](../Pictures/hw4-7.png)
+
+
+
+Download the needed Node packages:
+
+```shell
+npm install
+```
+
+![img](../Pictures/hw4-8.png)
+
+
+
+Edit [config.ts](https://github.com/BuilderIO/gpt-crawler/blob/main/config.ts) to specify the crawl path:
+
+```ts
+...
+
+url: "https://aws.amazon.com/certification/certified-cloud-practitioner/?nc1=h_ls",
+match: "https://aws.amazon.com/certification/**",
+  
+...
+```
+
+
+
+Run the crawler:
+
+```shell
+npm start
+```
+
+
+
+**output.json** after the crawling is completed.
+
+![img](../Pictures/hw4-9.png)
+
+
+
+## Create a custom GPT
+
+Use this option for UI access to your generated knowledge that you can easily share with others
+
+> Note: you may need a paid ChatGPT plan to create and use custom GPTs right now
+
+1. Go to https://chat.openai.com/
+2. Click your name in the bottom left corner
+3. Choose "My GPTs" in the menu
+4. Choose "Create a GPT"
+5. Choose "Configure"
+6. Under "Knowledge" choose "Upload a file" and upload the file you generated
+7. if you get an error about the file being too large, you can try to split it into multiple files and upload them separately using the option maxFileSize in the config.ts file or also use tokenization to reduce the size of the file with the option maxTokens in the config.ts file
+
+![img](../Pictures/custom-GPT-creation.gif)
