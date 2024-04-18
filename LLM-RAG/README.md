@@ -165,7 +165,7 @@ npm start
 
 
 
-[**output.json**](https://github.com/Pasxsenger/Information-Retrieval-and-Web-Search-Engines/blob/main/LLM-RAG/git-crawler/output.json) after the crawling is completed.
+[**output.json**](https://github.com/Pasxsenger/Information-Retrieval-and-Web-Search-Engines/blob/main/LLM-RAG/hw4/Q2-output.json) after the crawling is completed.
 
 ![img](../Pictures/hw4-9.png)
 
