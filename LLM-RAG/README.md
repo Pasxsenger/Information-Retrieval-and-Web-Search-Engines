@@ -2,7 +2,7 @@
 
 - Use [Weaviate](https://weaviate.io/), which is a vector DB - stores data as vectors after vectorizing, and computes a search query by vectorizing it and does a similarity search with existing vectors
 - Crawl the web using a Node package, to compile a 'knowledge base' [to use subsequently as input to build a [custom GPT](https://openai.com/blog/introducing-gpts)]
-- Using a Python module, perform RAG(Retrieval-augmented generation) on a 'small', locally-hosted LLM (make that an 'S'LM)
+- Using a Python module, perform RAG (Retrieval-augmented generation) on a 'small', locally-hosted LLM (make that an 'S'LM)
 
 
 
@@ -186,3 +186,93 @@ Use this option for UI access to your generated knowledge that you can easily sh
 7. if you get an error about the file being too large, you can try to split it into multiple files and upload them separately using the option maxFileSize in the config.ts file or also use tokenization to reduce the size of the file with the option maxTokens in the config.ts file
 
 ![img](../Pictures/custom-GPT-creation.gif)
+
+
+
+# Part 3
+
+Download a small (3.56G) model (with 7B parameters, compared to GPT-4's 1T for ex!), and use it along with an external knowledge source (a simple text file) vectorized using Chroma (a popular vector DB), and ask questions whose answers would be found in the text file :)
+
+
+
+Clone [DocQA](https://github.com/afaqueumer/DocQA) - and cd into it. There is a Python script (app.py) and a requirements.txt file.
+
+```shell
+git clone https://github.com/afaqueumer/DocQA
+```
+
+![img](../Pictures/hw4-10.png)
+
+
+
+Install pipenv:
+
+```shell
+pip install --user pipenv
+```
+
+
+
+Install the required components (Chroma, LangChain etc)
+
+```shell
+pipenv --python [Using the path to the Python executable in your conda environment] install
+```
+
+
+
+Next, let's grab this [LLM](https://huggingface.co/TheBloke/Llama-2-7B-GGUF/blob/main/llama-2-7b.Q4_0.gguf) - and save it to a models/ folder inside the DocQA.
+
+Modify app.py to specify this LLM:
+
+![img](../Pictures/hw4-11.png)
+
+
+
+Now we have all the pieces. These include the required Python modules, the LLM, and an app.py that will launch a UI via ['Streamlit'](https://streamlit.io/).
+
+Run this:
+
+```shell
+pipenv shell
+pipenv install streamlit
+pipenv run streamlit run app.py
+```
+
+![img](../Pictures/hw4-12.png)
+
+![img](../Pictures/hw4-13.png)
+
+
+
+If there is an RuntimeError:
+
+```shell
+RuntimeError: Failed to get embeddings from sequence pooling type is not set
+```
+
+Try to change the version of llama_cpp_python:
+
+```shell
+pipenv install "llama_cpp_python==0.2.47"
+
+pipenv run pip show llama_cpp_python
+```
+
+
+
+
+
+Now we need a simple text file to use for asking questions from (ie. 'external memory' for the LLM).
+
+I used [HarryPotter-Wiki.txt](https://github.com/Pasxsenger/Information-Retrieval-and-Web-Search-Engines/blob/main/LLM-RAG/hw4/Q3-HarryPotter-Wiki.txt)
+
+![img](../Pictures/hw4-14.png)
+
+
+
+That's quite impressive!
+
+
+
+The above is what the new 'magic' (ChatGPT etc) is about!! Later, you can try out [many other models](https://huggingface.co/TheBloke), other language tasks, reading PDF, etc. Such custom 'agents' are sure to become commonplace, serving/dispensing expertise/advice in myriad areas of life.
