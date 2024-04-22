@@ -276,3 +276,31 @@ That's quite impressive!
 
 
 The above is what the new 'magic' (ChatGPT etc) is about!! Later, you can try out [many other models](https://huggingface.co/TheBloke), other language tasks, reading PDF, etc. Such custom 'agents' are sure to become commonplace, serving/dispensing expertise/advice in myriad areas of life.
+
+
+
+# Part 4
+
+Go to https://lightning.ai/ and sign up for a free account.
+
+Then read these: https://lightning.ai/docs/overview/getting-started and https://lightning.ai/docs/overview/getting-started/studios-in-10-minutes
+
+Browse through their vast collection of 'Studio' templates: https://lightning.ai/studios - when you create (instantiate) one, you get your own sandboxed environment [a 'cloud supercomputer'] that runs on lightning.ai's servers. You get unlimited CPU use, and 22 hours of GPU use per month (PLENTY, for beginner projects).
+
+Create this Studio: https://lightning.ai/lightning-ai/studios/document-search-and-retrieval-using-rag - you are going to use this to do RAG using your own PDF :)
+
+![img](../Pictures/arch.png)
+
+
+
+Upload (drag and drop) your PDF [can be on ANY topic - coding, cooking, crafting, canoeing, cattle-ranching, catfishing... (lol!)]. Eg. this shows the pdf I uploaded:
+
+<img src="../Pictures/hw4-15.png" alt="img" style="zoom:50%;" />
+
+Next, edit run.ipynb, modify the 'files' variable to point to your pdf
+
+Modify the 'query' var, and the 'queries' var, to each contain a QUESTION on which you'd like to do RAG, ie. get the answers from the pdf you uploaded! THIS is the cool part - to be able to **ask questions in natural language**, rather than search by keyword, or look up words in the index [if the pdf has an index].
+
+![img](../Pictures/hw4-16.png)
+
+![img](../Pictures/hw4-17.png)
