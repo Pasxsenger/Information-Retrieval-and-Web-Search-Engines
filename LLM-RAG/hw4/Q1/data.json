@@ -1,0 +1,102 @@
+[
+  {
+    "Author": "George Orwell",
+    "Book": "1984",
+    "Summary": "A dystopian novel about the grim future of society under totalitarian rule, where independent thinking is a crime and surveillance is omnipresent."
+  },
+  {
+    "Author": "Jane Austen",
+    "Book": "Pride and Prejudice",
+    "Summary": "The romantic clashes between the opinionated Elizabeth Bennet and the enigmatic Mr. Darcy as they navigate societal expectations and their own feelings."
+  },
+  {
+    "Author": "F. Scott Fitzgerald",
+    "Book": "The Great Gatsby",
+    "Summary": "A tragic tale of Jay Gatsby, a self-made millionaire, and his pursuit of Daisy Buchanan, a wealthy young woman whom he loved in his youth."
+  },
+  {
+    "Author": "Mary Shelley",
+    "Book": "Frankenstein",
+    "Summary": "An ambitious scientist creates a monster from corpses, whose loneliness and desire for love drives him to extremes of violence."
+  },
+  {
+    "Author": "Herman Melville",
+    "Book": "Moby Dick",
+    "Summary": "The voyage of the whaling ship Pequod, commanded by Captain Ahab, who is driven by a monomaniacal desire to kill the white whale, Moby Dick."
+  },
+  {
+    "Author": "Leo Tolstoy",
+    "Book": "War and Peace",
+    "Summary": "A narrative that follows the lives of four aristocratic families in Russia during the Napoleonic Wars and explores themes of war, peace, and humanity."
+  },
+  {
+    "Author": "Gabriel García Márquez",
+    "Book": "One Hundred Years of Solitude",
+    "Summary": "The story of the Buendía family over seven generations in the town of Macondo, Colombia, exploring themes of loneliness, destiny, and the human condition."
+  },
+  {
+    "Author": "Charlotte Brontë",
+    "Book": "Jane Eyre",
+    "Summary": "An orphaned girl grows up to become a governess at Thornfield Hall, where she falls in love with her mysterious and brooding employer, Mr. Rochester."
+  },
+  {
+    "Author": "Mark Twain",
+    "Book": "Adventures of Huckleberry Finn",
+    "Summary": "A young boy runs away from home and sails the Mississippi River with an escaped slave, Jim, encountering a variety of characters and adventures."
+  },
+  {
+    "Author": "J.K. Rowling",
+    "Book": "Harry Potter and the Sorcerer's Stone",
+    "Summary": "A young boy discovers he is a famous wizard on his 11th birthday and attends Hogwarts School of Witchcraft and Wizardry, where he makes friends and enemies alike."
+  },
+  {
+    "Author": "J.R.R. Tolkien",
+    "Book": "The Lord of the Rings",
+    "Summary": "An epic fantasy about the quest to destroy a powerful ring that was created to bring power and control over its inhabitants."
+  },
+  {
+    "Author": "Margaret Atwood",
+    "Book": "The Handmaid's Tale",
+    "Summary": "In a dystopian future, women are subjugated by an oppressive regime that uses them as mere vessels for reproduction."
+  },
+  {
+    "Author": "Virginia Woolf",
+    "Book": "To the Lighthouse",
+    "Summary": "The Ramsey family's visits to the Isle of Skye in Scotland between 1910 and 1920 explore complex relationships and the passage of time."
+  },
+  {
+    "Author": "Orhan Pamuk",
+    "Book": "My Name is Red",
+    "Summary": "Set in the late 16th century Istanbul, an Ottoman miniaturist is murdered, unraveling the lives of his fellow artists and their struggles with religion and individuality."
+  },
+  {
+    "Author": "Kazuo Ishiguro",
+    "Book": "Never Let Me Go",
+    "Summary": "Children at a boarding school in a dystopian society eventually learn the true and chilling purpose of their existence."
+  },
+  {
+    "Author": "Emily Brontë",
+    "Book": "Wuthering Heights",
+    "Summary": "A dark love story between the troubled orphan Heathcliff and Catherine Earnshaw, who reside in the remote moorland farmhouse known as Wuthering Heights."
+  },
+  {
+    "Author": "Paulo Coelho",
+    "Book": "The Alchemist",
+    "Summary": "A young Andalusian shepherd named Santiago travels from Spain to Egypt in search of a treasure buried in the Pyramids."
+  },
+  {
+    "Author": "Antoine de Saint-Exupéry",
+    "Book": "The Little Prince",
+    "Summary": "A pilot stranded in the desert meets a young prince fallen to Earth from a tiny asteroid, and learns profound truths about the nature of life and love."
+  },
+  {
+    "Author": "H.G. Wells",
+    "Book": "The War of the Worlds",
+    "Summary": "The gripping tale of the Martian invasion of Earth, exploring themes of colonialism, humanity, and survival."
+  },
+  {
+    "Author": "Arthur Conan Doyle",
+    "Book": "The Adventures of Sherlock Holmes",
+    "Summary": "A collection of stories featuring the detective Sherlock Holmes, as he engages in various mysteries and adventures."
+  }
+]

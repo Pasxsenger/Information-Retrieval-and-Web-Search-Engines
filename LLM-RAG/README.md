@@ -165,7 +165,7 @@ npm start
 
 
 
-[**output.json**](https://github.com/Pasxsenger/Information-Retrieval-and-Web-Search-Engines/blob/main/LLM-RAG/hw4/Q2-output.json) after the crawling is completed.
+[**output.json**](https://github.com/Pasxsenger/Information-Retrieval-and-Web-Search-Engines/blob/main/LLM-RAG/hw4/Q2/output.json) after the crawling is completed.
 
 ![img](../Pictures/hw4-9.png)
 
@@ -265,7 +265,7 @@ pipenv run pip show llama_cpp_python
 
 Now we need a simple text file to use for asking questions from (ie. 'external memory' for the LLM).
 
-I used [HarryPotter-Wiki.txt](https://github.com/Pasxsenger/Information-Retrieval-and-Web-Search-Engines/blob/main/LLM-RAG/hw4/Q3-HarryPotter-Wiki.txt)
+I used [HarryPotter-Wiki.txt](https://github.com/Pasxsenger/Information-Retrieval-and-Web-Search-Engines/blob/main/LLM-RAG/hw4/Q3/HarryPotter-Wiki.txt)
 
 ![img](../Pictures/hw4-14.png)
 
